@@ -1,13 +1,13 @@
-import Home from "./pages/home/Home";
-import TopBar from "./components/topbar/TopBar";
-import Single from "./pages/single/Single";
-import Write from "./pages/write/Write";
-import Settings from "./pages/settings/Settings";
-import Login from "./pages/login/Login";
-import Register from "./pages/register/Register";
+import Home from "./src/pages/home/Home.jsx";
+import TopBar from "./src/components/topbar/TopBar.jsx";
+import Single from "./src/pages/single/Single.jsx";
+import Write from "./src/pages/write/Write.jsx";
+import Settings from "./src/pages/settings/Settings.jsx";
+import Login from "./src/pages/login/Login.jsx";
+import Register from "./src/pages/register/Register.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useContext } from "react";
-import { Context } from "./context/Context";
+import { Context } from "./src/context/Context.js";
 import Footer from "./footer.jsx";
 
 function App() {
