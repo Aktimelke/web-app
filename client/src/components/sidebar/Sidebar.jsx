@@ -18,7 +18,7 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT CREATOR</span>
         <video width="320" height="240" controls autoPlay muted>
-  <source src="/TikTok_7250475686748589314.mp4" type="video/mp4" />
+  <source src="/shannon-sharpe.gif.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
